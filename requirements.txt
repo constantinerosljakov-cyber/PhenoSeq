@@ -1,0 +1,32 @@
+# PhenoSeq v3 — pinned dependencies
+# All models run on CPU (no GPU required)
+# Python 3.9+
+
+# ── Core ML ───────────────────────────────────────────────
+torch==2.12.0
+transformers==5.8.1
+sentence-transformers==5.5.1
+
+# ── Data science ──────────────────────────────────────────
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.8.0
+
+# ── Graph / ontology ──────────────────────────────────────
+networkx==3.3
+
+# ── NLP utilities ─────────────────────────────────────────
+pronto                  # OBO/HPO ontology parsing
+requests                # Orphanet API calls
+
+# ── Russian NLP ───────────────────────────────────────────
+# pymorphy2             # gracefully disabled on Python 3.11+
+                        # install manually if using Python 3.9–3.10:
+                        # pip install pymorphy2
+
+# ── Jupyter ───────────────────────────────────────────────
+jupyter
+ipykernel
+
+# ── Testing ───────────────────────────────────────────────
+pytest
