@@ -1,0 +1,85 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Jupyter ───────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ── PhenoSeq: HPO cache & OBO files ──────────────────────
+hp.obo
+hp_*.obo
+*.obo
+hpo_cache/
+hpo_fingerprint.md5
+obo_fingerprint.txt
+
+# ── PhenoSeq: embedding index cache ──────────────────────
+hpo_index.faiss
+hpo_index.pkl
+hpo_embeddings.npy
+hpo_embeddings_*.npy
+embedding_cache/
+*.faiss
+*.index
+
+# ── PhenoSeq: downloaded model weights ───────────────────
+models/
+model_cache/
+.cache/
+huggingface_cache/
+sentence_transformers_cache/
+transformers_cache/
+
+# ── PhenoSeq: large data files ────────────────────────────
+*.parquet
+*.h5
+*.hdf5
+data/raw/
+data/external/
+phastcons_*.tsv
+pten_region*.tsv
+
+# ── Environments ──────────────────────────────────────────
+.env
+.venv
+venv/
+env/
+ENV/
+
+# ── OS junk ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── LaTeX build artefacts ─────────────────────────────────
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.blg
+*.bbl
+
+# ── Outputs & temp ────────────────────────────────────────
+outputs/
+tmp/
+temp/
+*.tmp
